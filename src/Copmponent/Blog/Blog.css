@@ -1,0 +1,31 @@
+.Blog_Container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.Blog_Container .title_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Blog_Container .title_container .title {
+  font-size: 56px;
+  font-weight: 900 !important;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.Blog_Container .title_container .title .titlecolor {
+  color: RGB(255, 180, 0);
+}
+
+@media only screen and (max-width: 600px) {
+  .Blog_Container .title_container .title {
+    font-size: 36px;
+    font-weight: 900 !important;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 30px;
+  }
+}/*# sourceMappingURL=Blog.css.map */

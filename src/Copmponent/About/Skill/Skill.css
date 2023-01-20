@@ -1,0 +1,42 @@
+.skill_container {
+  margin: 0px 138px;
+  margin-top: 45px;
+}
+.skill_container h1 {
+  line-height: 31.2px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 0px 0px 22px;
+  font-weight: 600;
+  font-style: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  -webkit-text-decoration: none solid rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  text-indent: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  margin-top: 20px;
+}
+.skill_container .skilldata_div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill_container .skilldata_div .skillsetdata {
+  margin: auto;
+  margin-bottom: 30px;
+  width: 25%;
+  height: 200px;
+}
+.skill_container .skilldata_div .skillsetdata .progresstatus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill_container .skilldata_div .skillsetdata .coding {
+  font-size: 15px;
+}/*# sourceMappingURL=Skill.css.map */

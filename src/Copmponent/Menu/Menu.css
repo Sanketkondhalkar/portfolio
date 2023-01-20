@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 10%;
+  position: fixed;
+  z-index: 99999999;
+  right: 10px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.inner_container {
+  width: 100%;
+}
+
+.toggal {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  height: 370px;
+}
+
+.home_menu {
+  display: flex;
+  justify-content: center;
+}
+
+.demo {
+  margin-top: 30px;
+}
+
+.buttondesign {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(43, 42, 42);
+  border: none;
+  cursor: pointer;
+}
+
+.btn_icon {
+  margin-top: 20px;
+}
+
+#iconcolor {
+  font-size: 20px;
+}
+
+#day {
+  background-color: #2B2A2A;
+}
+
+#night {
+  background-color: #EEEEEE;
+}/*# sourceMappingURL=Menu.css.map */
